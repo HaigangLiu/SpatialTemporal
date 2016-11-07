@@ -6,7 +6,7 @@ import json, ast
 
 os.chdir("/Users/haigangliu/Desktop/data_file")
 locations_and_names = pd.read_csv("unique_locations.csv", dtype = "unicode")
-api_key = "fa3dd5b205b7c1ba2a3f23e1499e0325"
+api_key = "fa3dd5b205b7c1ba2a3f23e1499e0322511"
 working_dir = "/Users/haigangliu/Desktop"; 
 attributes = ["LONGITUDE", "LATITUDE" ,"temperatureMax", "temperatureMin", "visibility", "pressure", "humidity", "windSpeed"]
 
